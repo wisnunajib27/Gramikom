@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FCEDEA">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="40dp"
+        android:layout_height="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/back" />
+
+    <ImageView
+        android:id="@+id/account"
+        android:layout_width="168dp"
+        android:layout_height="145dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/avatar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="240dp"
+        android:text="Alexander Joko"
+        android:textColor="@color/black"
+        android:textSize="10pt"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/saldo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="275dp"
+        android:text="Saldo Anda : - Rp1.000.000"
+        android:textSize="8pt"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/edit_profil"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310dp"
+        android:text="Edit Profil"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/tambahsaldo"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp"
+        android:text="Tambah Saldo"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/setting"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="410dp"
+        android:text="SETTING"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/keluar"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="460dp"
+        android:text="Keluar"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

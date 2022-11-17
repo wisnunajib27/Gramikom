@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FCEDEA">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="40dp"
+        android:layout_height="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/back"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="60dp"
+        android:text="Burger"
+        android:textColor="@color/black"
+        android:textSize="9pt"
+        android:textStyle="bold"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/barfilter">
+
+        <Button
+            android:id="@+id/filter"
+            android:layout_width="90dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/rounded_corner"
+            android:drawableStart="@drawable/filter"
+            android:paddingHorizontal="10dp"
+            android:text="  Filter"
+            android:textSize="5pt" />
+
+        <Button
+            android:id="@+id/promo"
+            android:layout_width="90dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/rounded_corner"
+            android:drawableStart="@drawable/promo"
+            android:paddingHorizontal="10dp"
+            android:text="Promo"
+            android:textSize="5pt" />
+
+        <Button
+            android:id="@+id/bintang"
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="195dp"
+            android:background="@drawable/rounded_corner"
+            android:drawableStart="@drawable/bintang"
+            android:paddingHorizontal="10dp"
+            android:text="Bintang 4.5+"
+            android:textSize="5pt" />
+
+        <Button
+            android:id="@+id/jambuka"
+            android:layout_width="115dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="330dp"
+            android:background="@drawable/rounded_corner"
+            android:drawableStart="@drawable/jam"
+            android:paddingHorizontal="10dp"
+            android:text="Buka"
+            android:textSize="5pt" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:id="@+id/cheeseburger">
+
+        <ImageView
+            android:id="@+id/cheeseburger"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/cheeseburger" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="145dp"
+            android:text="Special Cheese Burger"
+            android:textColor="@color/black"
+            android:textSize="8pt"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="145dp"
+            android:text="Burger dengan isian keju pilihan terbaik"
+            android:textColor="@color/black"
+            android:textSize="6pt"/>
+
+        <ImageView
+            android:layout_width="164dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="117dp"
+            android:layout_marginTop="56dp"
+            android:src="@drawable/bintang5"
+            android:textColor="@color/black"
+            android:textSize="6pt" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="146dp"
+            android:text="RP42.000"
+            android:textColor="@color/black"
+            android:textSize="8pt"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="255dp"
+        android:id="@+id/beefburger">
+
+        <ImageView
+            android:id="@+id/beefburger"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/beefburger" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="145dp"
+            android:text="Beef Burger"
+            android:textColor="@color/black"
+            android:textSize="8pt"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="145dp"
+            android:text="Burger dengan isian daging terbaik"
+            android:textColor="@color/black"
+            android:textSize="6pt"/>
+
+        <ImageView
+            android:layout_width="164dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="117dp"
+            android:layout_marginTop="56dp"
+            android:src="@drawable/bintang5"
+            android:textColor="@color/black"
+            android:textSize="6pt" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="146dp"
+            android:text="RP32.000"
+            android:textColor="@color/black"
+            android:textSize="8pt"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="370dp"
+        android:id="@+id/beefburger">
+
+        <ImageView
+            android:id="@+id/beefburger"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/beefburger" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="145dp"
+            android:text="Mie Burger"
+            android:textColor="@color/black"
+            android:textSize="8pt"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="145dp"
+            android:text="Kombinasi burger dengan mie lezat"
+            android:textColor="@color/black"
+            android:textSize="6pt"/>
+
+        <ImageView
+            android:layout_width="164dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="117dp"
+            android:layout_marginTop="56dp"
+            android:src="@drawable/bintang5"
+            android:textColor="@color/black"
+            android:textSize="6pt" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="146dp"
+            android:text="RP15.000"
+            android:textColor="@color/black"
+            android:textSize="8pt"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="485dp"
+        android:id="@+id/beefburger">
+
+        <ImageView
+            android:id="@+id/beefburger"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/beefburger" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="145dp"
+            android:text="Cheese Black Burger"
+            android:textColor="@color/black"
+            android:textSize="8pt"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="145dp"
+            android:text="Burger dengan isian keju pilihan terbaik"
+            android:textColor="@color/black"
+            android:textSize="6pt"/>
+
+        <ImageView
+            android:layout_width="164dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="117dp"
+            android:layout_marginTop="56dp"
+            android:src="@drawable/bintang5"
+            android:textColor="@color/black"
+            android:textSize="6pt" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="146dp"
+            android:text="RP28.000"
+            android:textColor="@color/black"
+            android:textSize="8pt"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:id="@+id/beefburger">
+
+        <ImageView
+            android:id="@+id/beefburger"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/beefburger" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="145dp"
+            android:text="Chicken Burger"
+            android:textColor="@color/black"
+            android:textSize="8pt"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="145dp"
+            android:text="Burger dengan isian keju pilihan terbaik"
+            android:textColor="@color/black"
+            android:textSize="6pt"/>
+
+        <ImageView
+            android:layout_width="164dp"
+            android:layout_height="24dp"
+            android:layout_marginLeft="117dp"
+            android:layout_marginTop="56dp"
+            android:src="@drawable/bintang5"
+            android:textColor="@color/black"
+            android:textSize="6pt" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="146dp"
+            android:text="RP25.000"
+            android:textColor="@color/black"
+            android:textSize="8pt"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
